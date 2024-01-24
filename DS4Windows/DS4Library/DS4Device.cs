@@ -404,8 +404,8 @@ namespace DS4Windows
 
         //private const byte DEFAULT_OUTPUT_FEATURES = 0xF7;
         private const byte DEFAULT_OUTPUT_FEATURES = 0x07;
-        //private const byte COPYCAT_OUTPUT_FEATURES = 0xF3;
-        private const byte COPYCAT_OUTPUT_FEATURES = 0x03;
+        private const byte COPYCAT_OUTPUT_FEATURES = 0xF3;
+        //private const byte COPYCAT_OUTPUT_FEATURES = 0x03;
         private byte outputFeaturesByte = DEFAULT_OUTPUT_FEATURES;
 
         public int Battery => battery;
